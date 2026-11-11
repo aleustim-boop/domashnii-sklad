@@ -195,7 +195,8 @@ main { min-height: 40vh; }
 .nav > a.is-active { border-bottom-color: var(--accent); color: var(--accent-ink); }
 .nav__col { color: var(--accent-ink); }
 .nav__mhead, .nav__mcats, .nav__mfoot, .search--mobile { display: none; }
-.hdr__promo { margin-left: auto; font-size: 13px; color: var(--muted); white-space: nowrap; display: flex; align-items: center; gap: 6px; }
+/* 11.11.2026: строка «доставка + часы» не помещалась рядом с меню и налезала на него — скрыта (часы есть у телефона в шапке) */
+.hdr__promo { display: none; }
 .hdr__promo .ico { width: 16px; height: 16px; color: var(--accent); }
 
 /* ---------- Список категорий (колонка и выпадающее меню) ---------- */
