@@ -722,6 +722,16 @@ main { min-height: 40vh; }
   .slide__text h1, .slide__text h2 { font-size: 28px; }
 }
 
+@media (max-width: 1060px) {
+  /* 11.11.2026: на ширинах 901–1060 меню не помещалось и вылезало за экран — уменьшаем отступы и шрифт */
+  .nav { gap: 0; }
+  .nav > a { padding: 14px 6px; font-size: 13px; }
+}
+
+@media (max-width: 960px) {
+  .nav > a { padding: 14px 4px; font-size: 12.5px; }
+}
+
 @media (max-width: 900px) {
   h1 { font-size: 28px; }
   h2 { font-size: 23px; }
